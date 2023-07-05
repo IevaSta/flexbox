@@ -1,1 +1,12 @@
 @import "src/reset.css";
+@import "src/media.css";
+
+/* mobile first */
+
+@media (min-width: var(--tablet)) {
+
+}
+
+@media (min-width: var(--desktop)) {
+
+}
