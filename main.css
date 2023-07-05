@@ -1,37 +1,42 @@
-@import "src/reset.css";
-/* @import "src/media.css"; */
-
-/* mobile first 
-@media (min-width: var(--tablet)) {
+body, 
+body * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-@media (min-width: var(--desktop)) {
-}
-*/
 
 body {
     background: rgb(202, 202, 202);
     padding: 5px 10px;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
+    font-weight: 400;
 }
 
 main {
     display: flex;
-    height: 215px;
 }
 
-.navigation {
-    width: 500px;
-}
-
-.frame {
+header, div, p, footer {
     background: white;
     border-radius: 5px;
     margin: 2px;
-    padding: 10px;
+    padding: 10px 5px;
     /* shadows */
 }
 
-.header, .footer {
+div {
+    width: 30%;
+}
+
+p {
+    color: gray;
+    width: 70%;
+    max-height: 50px;
+    overflow: scroll;
+}
+
+header, footer {
     height: 35px;
     display: flex;
     align-items: center;
