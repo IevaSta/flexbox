@@ -13,15 +13,7 @@ body {
     font-weight: 400;
 }
 
-main {
-    display: flex;
-}
-
-header,
-div,
-p,
-footer {
-    position: relative;
+.component-style {
     background: white;
     border-radius: 5px;
     margin: 2px;
@@ -34,15 +26,16 @@ footer {
 }
 
 div {
-    width: 30%;
-    margin-right: 4px;
-    position: sticky;
+    display: flex;
+}
+
+aside {
+    width: 40%;
     min-width: 125px;
 }
 
 p {
     color: gray;
-    width: 70%;
     max-height: 20vh;
     overflow: scroll;
 }
@@ -50,7 +43,5 @@ p {
 header,
 footer {
     height: 35px;
-    display: flex;
-    align-items: center;
     position: sticky;
 }
